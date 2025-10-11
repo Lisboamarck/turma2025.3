@@ -15,6 +15,11 @@ for(let i = 0; i,10; i++){
         case 'bot':
             bot++; break;
         defaut:
-            out++;
+            out++;          
     }                    
 }
+document.write('torcedores do vasco' + vas + '<br>');
+document.write('torcedores do fla' + fla + '<br>');
+document.write('torcedores do flu' + flu + '<br>');
+document.write('torcedores do bot' + bot + '<br>');
+document.write('Outros torcedores' + out + '<br>');
